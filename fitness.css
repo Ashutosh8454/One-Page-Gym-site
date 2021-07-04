@@ -1,0 +1,97 @@
+body{
+      margin: 0px;
+      padding: 0px;
+
+      background:url('depositphotos_50769641-stock-photo-fitness-with-dumbbells.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color:white;
+      
+}
+*{
+    box-sizing:border-box;
+}
+.left
+{
+     /* border:3px solid red;*/
+     color: white;
+     display: inline-block;
+     position: absolute;
+           left:32px;
+           top:20px;
+
+}
+.center
+{
+           /* border:3px solid rgb(107, 18, 45);*/
+            color: white;
+            display: block;
+            width: 33%;
+            height: 50px;
+            margin:20px auto;
+            
+}
+
+.right
+{
+          /* border:3px solid brown;*/
+           color: white;
+           display: inline-block;
+           position: absolute;
+           right:32px;
+           top: 8px;
+
+}
+.log
+{
+    width: 76px;
+    height: 41px;
+}
+.center nav ul li
+{
+         float: left;
+           list-style: none;
+         
+          
+}
+.center nav ul li a
+{
+     text-decoration: none;  
+     padding: 12px; 
+     margin:0px 8px;  
+     color: white;     
+}  
+.center nav ul li a:hover{
+                            color: white;
+                            background-color:black;
+}
+.right ul li{
+              float:left;
+              list-style: none;
+              margin: 0px 12px;
+}
+.continer{
+            border: 2px solid rgb(78, 74, 74);
+            display: inline-block;
+            width:400px;
+            height: 370px;
+            position:absolute;
+            right:40px;
+            top:120px;
+            background-color: rgb(22, 26, 25);
+}
+.continer h2{
+              text-align: center;
+              
+}
+.continer input{
+                 padding: 4px 8px;
+                 margin: 8px;
+                 
+}
+.continer button{
+                   padding:12px;
+                   margin: 12px;
+                   cursor: pointer;
+                   
+}
